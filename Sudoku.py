@@ -10,35 +10,35 @@ board = [
 	[3,4,0,2,0,6,0,5,7]
 ]
 
-def final_solution(bo):       #recursion
+def final_solution(board1):       #recursion
 
-	find= find_empty_spaces(bo)
+	find= find_empty_spaces(board1)
 	if not find:
 		return True			#found the solution
 	else:	
 		row, col = find
 
 	for i in range(1,10):           #try each number from 1 to 9
-		if validate(bo, i, (row,col)):
-			bo[row][col] = i
+		if validate(board1, i, (row,col)):
+			board1[row][col] = i
 
-			if final_solution(bo):
+			if final_solution(board1):
 				return True
 
-			bo[row][col] = 0     #invalid value so retry this position by resetting it to 0
+			board1[row][col] = 0     #invalid value so retry this position by resetting it to 0
 
 	return False
 
-def validate(bo, num, pos):
+def validate(board1, num, pos):
 	
 	#Check row
-	for i in range(len(bo[0])):
-		if bo[pos[0]][i]== num and  pos[1]!= i: # if the positon has that number and if the position is already inserted then ignore 
+	for i in range(len(board1[0])):
+		if board1[pos[0]][i]== num and  pos[1]!= i: # if the positon has that number and if the position is already inserted then ignore 
 			return False
 
 	#check column
-	for i in range(len(bo)):
-		if bo[i][pos[1]]== num and  pos[0]!= i: # Same as above but goes down every single row and ignore if already filled or has same number
+	for i in range(len(board1)):
+		if board1[i][pos[1]]== num and  pos[0]!= i: # Same as above but goes down every single row and ignore if already filled or has same number
 			return False
 
 	#Check which box we are in 
@@ -47,31 +47,31 @@ def validate(bo, num, pos):
 
 	for i in range(box_b*3, box_b*3+3):
 		for j in range(box_a*3, box_a*3+3):
-			if bo[i][j] == num and (i,j)!=pos: 
+			if board1[i][j] == num and (i,j)!=pos: 
 				return False
 
 	return True
 
-def print_board(bo):	
+def print_board(board1):	
 
-	for i in range(len(bo)):
+	for i in range(len(board1)):
 		if i % 3 ==0 and i != 0:	#after every 3 rows there will be  the below line
 			print("- - - - - - - - - - - - -")
 
-		for j in range(len(bo[0])):
+		for j in range(len(board1[0])):
 			if j % 3 == 0 and j != 0 :  #after every 3 columns there will be  the below line
 				print(" | ", end="")
 
 			if j == 8:
-				print(bo[i][j])		
+				print(board1[i][j])		
 			else:
-				print(str(bo[i][j])+ " ", end="")
+				print(str(board1[i][j])+ " ", end="")
 
-def find_empty_spaces(bo):
+def find_empty_spaces(board1):
 
-	for i in range(len(bo)):
-		for j in range(len(bo[0])):
-			if bo[i][j] == 0:
+	for i in range(len(board1)):
+		for j in range(len(board1[0])):
+			if board1[i][j] == 0:
 				return (i, j) #row & column
 	return None    #no empty space
 
