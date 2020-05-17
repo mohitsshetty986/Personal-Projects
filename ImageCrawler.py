@@ -27,3 +27,28 @@ for index, img_link in enumerate(links):
     else:
         f.close()
         break
+'''        
+from bs4 import BeautifulSoup
+import requests as rq 
+import urllib.request
+
+url= "https://www.reddit.com/r/BabyYoda/"
+
+response = rq.get(url)
+
+soup = BeautifulSoup(response.content,"html.parser")
+
+'''print(soup.prettify())'''
+
+images = soup.find_all("img", attrs = {"alt":"Post image"})  
+
+'''attrs stands for attributes'''
+
+number = 0
+
+for image in images:
+	image_src=image["src"]
+	print(image_src)
+	urllib.request.urlretrieve(image_src, str(number))
+	number=number + 1 
+'''
