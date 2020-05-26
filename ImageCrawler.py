@@ -1,3 +1,29 @@
+from bs4 import BeautifulSoup
+import requests as rq 
+import urllib.request
+import random
+
+url= "https://www.creativeshrimp.com/top-30-artworks-of-beeple.html"
+
+response = rq.get(url)
+
+plain_text= response.text
+
+soup = BeautifulSoup(plain_text,  features = "lxml")
+
+for link in soup.find_all("a",{"class":"lightbox"}):
+	href=link.get('href')
+
+	print(href)
+
+	img_name = random.randrange(1,500)
+	
+	full_name=str(img_name)+".jpg"
+
+	urllib.request.urlretrieve(href,full_name)
+
+	print("loop break")
+
 '''
 *----------------Not working-----------------*
 from bs4 import *
