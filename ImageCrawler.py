@@ -1,3 +1,5 @@
+'''
+*----------------Not working-----------------*
 from bs4 import *
 import requests as rq 
 import os
@@ -27,7 +29,7 @@ for index, img_link in enumerate(links):
     else:
         f.close()
         break
-'''        
+*---------------------for Reddit-------------------*   
 from bs4 import BeautifulSoup
 import requests as rq 
 import urllib.request
