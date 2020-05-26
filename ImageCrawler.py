@@ -22,8 +22,6 @@ for link in soup.find_all("a",{"class":"lightbox"}):
 
 	urllib.request.urlretrieve(href,full_name)
 
-	print("loop break")
-
 '''
 *---------------------for Reddit-------------------*   
 from bs4 import BeautifulSoup
