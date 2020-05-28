@@ -25,16 +25,21 @@ def covidData():
 
         dict[key] = values
 
-    df=pd.DataFrame(dict).iloc[1:13,:].T
+    list1=[]
+    i=0
+    for i in range(len(dict)):
+    	list1.append(i+1)
 
-    column_names=["Country","Total Cases","New Cases","Total Deaths","New Deaths","Total Recovered","Active Cases","Serious / Critical","Total Cases per 1M population","Deaths per 1M population","Total Tests","Tests per 1M population"]
+    df=pd.DataFrame(dict).iloc[1:13,:].T
+    df['SrNo']=list1
+    column_names=["Country","Total Cases","New Cases","Total Deaths","New Deaths","Total Recovered","Active Cases","Serious / Critical","Total Cases per 1M population","Deaths per 1M population","Total Tests","Tests per 1M population","SrNo"]
 
     df.columns=column_names
 
     #df.head()
+    df.set_index("SrNo",inplace= True)
 
     df.to_csv("CoronaVirus_Live_Tracking.csv")
-    
     print("Data collected...Please check for above csv file name")
 
 covidData()
