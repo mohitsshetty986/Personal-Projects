@@ -11,11 +11,11 @@ Please check it.
 Another file named CovidTracking is simple webscrapping from Worldometer website
 that retrieves data in an excel sheet.
 
-
-   .   .
+     ^
+ | .   . |
  {   \   }
-    ---
-	
+ |  ---  |
+
 sorry for that ^
                |
 
