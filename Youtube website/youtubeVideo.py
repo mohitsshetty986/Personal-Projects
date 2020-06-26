@@ -24,7 +24,7 @@ def mp3_convert():
     clip.audio.write_audiofile(r'youtube.mp3')
     time.sleep(10)
 
-    return "Hey mohit video converted to mp3...check in python folder"
+    return render_template('Home.html',output="Hey mohit video converted to mp3...check in static folder")
 
 if __name__=="__main__":
 	app.run()
