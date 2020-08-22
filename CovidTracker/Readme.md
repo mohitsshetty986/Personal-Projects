@@ -1,5 +1,5 @@
 Open JupyterLab and execute the code in MAinCode.py file then,
-Save the ipynb file in a folder you find convenient.
+Save the ipynb file in a folder you find convenient.https://github.com/mohitsshetty986/Mini-Projects/blob/master/CovidTracker/Readme.txt
 Run in cmd as voila --enable_nbextensions=True, you will find the ipynb file
 in the browser and Done!!!!! ur Dashboard is ready.
 
