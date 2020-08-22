@@ -1,14 +1,11 @@
-Open JupyterLab and execute the code in MainCode.py file then,
+Open terminal and go to the folder where you have saved CovidDashboard.ipynb file and run "voila CovidDashboard.ipynb" 
 
-Save the ipynb file in a folder you find convenient.
+The voila application will open in browser and ur Dashboard is ready.
 
-Run in cmd as voila --enable_nbextensions=True, you will find the ipynb file in the browser and Done!!!!! ur Dashboard is ready.
-
-Thanks to,
+Thanks to, 
 https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python-and-voila-ee091f65dcbb
 
-Credits to Harshit Tyagi.
 The creation and working of the dashboard has been thoroughly explained in the above website. Please check it.
 
-Another file named CovidTracking is a simple webscrapping implementation from Worldometer website that retrieves data in an excel sheet. 
+I have created another file named CovidTracking which is a simple web-scrapping python implementation scrapping covid data from Worldometer website into an excel sheet. 
 
