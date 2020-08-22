@@ -5,7 +5,8 @@ in the browser and Done!!!!! ur Dashboard is ready.
 
 Thanks to,
 https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python-and-voila-ee091f65dcbb
- 
+
+Credits to Harshit Tyagi.
 The creation and working of the dashboard has been thoroughly explained in the above website. Please check it.
 
 Another file named CovidTracking is simple webscrapping from Worldometer website
