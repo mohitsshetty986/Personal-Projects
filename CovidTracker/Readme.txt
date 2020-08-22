@@ -9,8 +9,7 @@ https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python
 Credits to Harshit Tyagi.
 The creation and working of the dashboard has been thoroughly explained in the above website. Please check it.
 
-Another file named CovidTracking is simple webscrapping from Worldometer website
-that retrieves data in an excel sheet. It's a simple implementation using web scraping and displaying the information in a excel table format.
+Another file named CovidTracking is a simple webscrapping implementation from Worldometer website that retrieves data in an excel sheet. 
 
      ^
  | .   . |
