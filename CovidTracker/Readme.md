@@ -7,5 +7,5 @@ https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python
 
 The creation and working of the dashboard has been thoroughly explained in the above website. Please check it.
 
-I have created another file named CovidTracking which is a simple web-scrapping python implementation scrapping covid data from Worldometer website into an excel sheet. 
+I have created another file named CovidTracking.py which is a simple web-scrapping python implementation scrapping covid data from Worldometer website into an excel sheet. 
 
