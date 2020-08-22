@@ -11,10 +11,3 @@ The creation and working of the dashboard has been thoroughly explained in the a
 
 Another file named CovidTracking is a simple webscrapping implementation from Worldometer website that retrieves data in an excel sheet. 
 
-     ^
- | .   . |
- {   \   }
- |  ---  |
-
-     ^ 
-     |
