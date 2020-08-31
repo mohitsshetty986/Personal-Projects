@@ -1,1 +1,1 @@
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Game image](https://github.com/mohitsshetty986/Mini-Projects/blob/master/Connect4%20PyGame/Connect4.png)
