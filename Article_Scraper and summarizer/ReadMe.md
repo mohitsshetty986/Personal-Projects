@@ -1,6 +1,6 @@
 **Scraped News Articles from "The Washington Post" website using NLTK python library.**
 
-**1) With a tokenizer element named "punkt", we will use "newspaper3k" to automatically extract structured information such as title, author, published date, text passage of article and a short summary of the article using the article URL from The Washington Post website.**
+**1) With a tokenizer element named "punkt", we will use "newspaper3k" to automatically extract structured information such as title, author, published date, text passage of article and a short summary of the article using the article URL collected from The Washington Post website using BeautifulSoup lirbrary.**
 
 **2) We have added a english dictionary as well for searching meaning of words from the Article we get using PyDictionary.**
 
