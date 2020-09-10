@@ -11,4 +11,4 @@ The working of the dashboard has been explained in the above website. Please che
 
 I have created another file named CovidTracking.py which is a simple web-scrapping python implementation scrapping covid data from Worldometer website into an excel sheet. 
 
-![](https://github.com/mohitsshetty986/Personal-Projects/blob/master/CovidTracker/Covid%20Tracker%20image.png?raw=true&s=2000)
+![](https://github.com/mohitsshetty986/Personal-Projects/blob/master/CovidTracker/Covid%20Tracker%20image.png?raw=true)
