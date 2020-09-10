@@ -4,6 +4,6 @@
 
 **2) We have added a english dictionary as well for searching meaning of words from the Article we get using PyDictionary.**
 
-**3) An audio compnent is added that will narrate the article.**
+**3) An audio compnent is added that will narrate the article using Google Text-to-Speech library.**
 
 **4) We have added an sentiment analysis that determines the emotion of the article i.e. if the topic is 'Sad','Happy','fearful', etc.**
