@@ -1,1 +1,1 @@
-![Game image](https://github.com/mohitsshetty986/Mini-Projects/blob/master/Connect4%20PyGame/Connect4.png)
+![Game image](https://drive.google.com/uc?export=view&id=137t4AMpeftDsrNXOqGl_cqwkZieQFHr8)
