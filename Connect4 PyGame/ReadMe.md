@@ -3,6 +3,6 @@
 
 ## Left click to drop your piece.
 
-## When you can connect four pieces vertically, horizontally or diagonally you win.
+## When you can connect four pieces  horizontally, vertically or diagonally you win.
 
 ![Game image](https://drive.google.com/uc?export=view&id=137t4AMpeftDsrNXOqGl_cqwkZieQFHr8)
