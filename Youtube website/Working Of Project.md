@@ -37,7 +37,7 @@ And press Download button.
 ![](https://drive.google.com/uc?export=view&id=1Q8OMT_vW612430SnZ_6ESQpR1v2uTBxr)
 
 - The file will be downloaded in the static folder and displayed on the website
-
+In the cmd
 ![](https://drive.google.com/uc?export=view&id=1Xzbx_63aX3AIpgT7H0h598XX-9fmsWPF)
 
 - **Now if you want to convert it into an mp3 file for example:**
