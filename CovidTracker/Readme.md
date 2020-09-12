@@ -1,6 +1,6 @@
-- Open terminal and go to the folder where you have saved CovidDashboard.ipynb file and run "voila CovidDashboard.ipynb" 
+- Open terminal and go to the folder where where CovidDashboard.ipynb file is saved and run "voila CovidDashboard.ipynb". 
 
-- The voila application will open in browser and ur Dashboard is ready.
+- The voila application will open in browser with your Covid Dashboard.
 
 - The covid data for this project is collected from COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.
 
