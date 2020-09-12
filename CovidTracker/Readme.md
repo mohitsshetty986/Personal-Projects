@@ -4,8 +4,7 @@
 
 - The covid data for this project is collected from COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.
 
-- Thanks to, 
-- https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python-and-voila-ee091f65dcbb
+- Thanks to https://towardsdatascience.com/building-covid-19-analysis-dashboard-using-python-and-voila-ee091f65dcbb
 
 - The working of the dashboard has been explained in the above website. Please check it.
 
