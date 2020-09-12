@@ -11,7 +11,7 @@ Mainly two functions are created that,
 1. Takes youtube video URL and downloads and stores it in the static folder.
 2. Converts the downloaded mp4 file to mp3 format.
 
-![](RackMultipart20200912-4-1i353ux_html_ad7d81c199bd546e.png)
+![](https://drive.google.com/uc?export=view&id=1VMWpzYKTfUkyLmHKZ1PYMsO0cn448mK8)
 
 - **We create two different folders-**
 
@@ -20,34 +20,34 @@ Mainly two functions are created that,
 
 - **We run the python file in terminal**
 
-![](RackMultipart20200912-4-1i353ux_html_e133ca49bf6834.png)
+![](https://drive.google.com/uc?export=view&id=102fWq6UycUtH67oXy3geKvAOwIG2B-NF)
 
 - As shown in the image to get the project interface we go to localhost: **127.0.0.1:5000** and we get the below web page displayed
 
-![](RackMultipart20200912-4-1i353ux_html_c703cd7692a7eaed.png)
+![](https://drive.google.com/uc?export=view&id=1gvuDN-L6zRZ7knwmQG6ljqVX4SG6c9Da)
 
 - As shown we have to type the URL of a youtube video to download it and the downloaded video will be displayed in the black region below.
 
 We enter the URL in the search bar:
 
-![](RackMultipart20200912-4-1i353ux_html_caada8effb911af9.png)
+![](https://drive.google.com/uc?export=view&id=1yCTeq-2aBvA-FO5lABEHNMJoTBKVa5C1)
 
 And press Download button.
 
-![](RackMultipart20200912-4-1i353ux_html_528c1e355bc8567e.png)
+![](https://drive.google.com/uc?export=view&id=1Q8OMT_vW612430SnZ_6ESQpR1v2uTBxr)
 
 - The file will be downloaded in the static folder and displayed on the website
 
-![](RackMultipart20200912-4-1i353ux_html_706b521140dbaa17.png)
+![](https://drive.google.com/uc?export=view&id=1Xzbx_63aX3AIpgT7H0h598XX-9fmsWPF)
 
 - **Now if you want to convert it into an mp3 file for example:**
 
 If someone wants to download a song and does not want a video but just the audio then after downloading the YouTube video, he can press the &quot; **convert video to mp3**&quot; button to convert it to mp3 file and can delete the mp4 file after the **mp3 file is downloaded** in the same &quot; **Static**&quot; folder.
 
-![](RackMultipart20200912-4-1i353ux_html_12ae290759b2945e.png)
+![](https://drive.google.com/uc?export=view&id=12oG1nU2vHhaBOyhM8c8FBH99EndyFTIQ)
 
-![](RackMultipart20200912-4-1i353ux_html_554cc626ddb7534.png)
+![](https://drive.google.com/uc?export=view&id=132EHM8frHNeXtSHj6MwDPQL2MTEsMfdN)
 
 # **As you can see the video and the mp3 file have been stored in static folder.**
 
-![](RackMultipart20200912-4-1i353ux_html_6af7d39f2d6a5be.png)
+![](https://drive.google.com/uc?export=view&id=1ehO8bch6gxhvpw0SwXbWFUy63WdZ5Sh8)
