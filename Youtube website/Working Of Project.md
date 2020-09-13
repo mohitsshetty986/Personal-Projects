@@ -8,7 +8,7 @@
 
 ## The youtubeVideo python file is the core of this project.
 
-##Mainly two functions are created that,
+## Mainly two functions are created that,
 
 1. Takes youtube video URL and downloads and stores it in the static folder.
 2. Converts the downloaded mp4 file to mp3 format.
