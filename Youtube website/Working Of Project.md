@@ -60,5 +60,5 @@ Say if you want few image clips of a very famous actor/actress in the video.
 
 ![image11](https://drive.google.com/uc?export=view&id=1PO2CcSRHvk12VZUX9zRi8rMZizMmVqh7)
 
-Here's how it's going to look like,
+# Here's how it's going to look in the end, #
 ![image12](https://drive.google.com/uc?export=view&id=1xXFTv-wnTDUkKNewbdhHG2Yoh3wn3Djc)
