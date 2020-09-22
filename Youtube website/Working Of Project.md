@@ -1,4 +1,4 @@
-### Please Referesh if the image is not fetched. 
+### Please Referesh if the images are not fetched. 
 
 # **Working of the project**
 
