@@ -56,7 +56,7 @@ If someone wants to download a song and does not want a video but just the audio
 
 ## **Now if you want to convert the mp4 into image frames (fps=1):**
 
-Say if you want few image clips of a very famous actor/actress in the video.
+Say if you want few image clips of a very famous actor/actress in the video, press the **Convert video to image frames**. 
 
 ![image11](https://drive.google.com/uc?export=view&id=1PO2CcSRHvk12VZUX9zRi8rMZizMmVqh7)
 
