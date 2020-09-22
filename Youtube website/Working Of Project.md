@@ -59,3 +59,6 @@ If someone wants to download a song and does not want a video but just the audio
 Say if you want few image clips of a very famous actor/actress in the video.
 
 ![image11](https://drive.google.com/uc?export=view&id=1PO2CcSRHvk12VZUX9zRi8rMZizMmVqh7)
+
+Here's how it's going to look like,
+![image12](https://drive.google.com/uc?export=view&id=1xXFTv-wnTDUkKNewbdhHG2Yoh3wn3Djc)
