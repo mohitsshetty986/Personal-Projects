@@ -1,4 +1,4 @@
-### Please Referesh if the image is not fetched. 
+### Please Referesh if the images are not fetched. 
 
 # **Working of the project**
 
@@ -50,8 +50,15 @@ If someone wants to download a song and does not want a video but just the audio
 
 ![image9](https://drive.google.com/uc?export=view&id=132EHM8frHNeXtSHj6MwDPQL2MTEsMfdN)
 
-# **As you can see the video and the mp3 file have been stored in static folder.**
+## **As you can see the video and the mp3 file have been stored in static folder.**
 
 ![image10](https://drive.google.com/uc?export=view&id=1ehO8bch6gxhvpw0SwXbWFUy63WdZ5Sh8)
 
 ## **Now if you want to convert the mp4 into image frames (fps=1):**
+
+Say if you want few image clips of a very famous actor/actress in the video, press the **Convert video to image frames**. 
+
+![image11](https://drive.google.com/uc?export=view&id=1PO2CcSRHvk12VZUX9zRi8rMZizMmVqh7)
+
+# Here's how it's going to look in the end, #
+![image12](https://drive.google.com/uc?export=view&id=1xXFTv-wnTDUkKNewbdhHG2Yoh3wn3Djc)
