@@ -53,3 +53,5 @@ If someone wants to download a song and does not want a video but just the audio
 # **As you can see the video and the mp3 file have been stored in static folder.**
 
 ![image10](https://drive.google.com/uc?export=view&id=1ehO8bch6gxhvpw0SwXbWFUy63WdZ5Sh8)
+
+## **Now if you want to convert the mp4 into image frames (fps=1):**
