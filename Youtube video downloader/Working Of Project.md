@@ -58,7 +58,7 @@ If someone wants to download a song and does not want a video but just the audio
 
 Say if you want few image clips of a very famous actor/actress in the video, press the **Convert video to image frames**. 
 
-![image11](https://github.com/mohitsshetty986/Personal-Projects/blob/master/Youtube%20video%20downloader/images/picture11.jpg)
+![image11](https://github.com/mohitsshetty986/Personal-Projects/blob/master/Youtube%20video%20downloader/images/picture11.png)
 
 # Here's how it's going to look in the end, #
 ![image12](https://github.com/mohitsshetty986/Personal-Projects/blob/master/Youtube%20video%20downloader/images/Final%20image.png)
