@@ -1,6 +1,6 @@
 **Youtube Video Downloader**
 
-We have implemented a youtube video downloader with a mp4 to mp3 conversion feature using python Flask framework.
+We have implemented a youtube video downloader with a mp4 to mp3 conversion and mp4 to image frames features using python Flask framework.
 
 Note this is for educational purposes only, using **pytube python library** ( https://pypi.org/project/pytube/ ) for downloading youtube videos and **Flask framework** to serve as an interface for the project.
 
