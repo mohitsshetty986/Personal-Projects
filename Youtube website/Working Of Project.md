@@ -61,4 +61,4 @@ Say if you want few image clips of a very famous actor/actress in the video, pre
 ![image11](https://drive.google.com/uc?export=view&id=1PO2CcSRHvk12VZUX9zRi8rMZizMmVqh7)
 
 # Here's how it's going to look in the end, #
-![image12](https://drive.google.com/uc?export=view&id=1xXFTv-wnTDUkKNewbdhHG2Yoh3wn3Djc)
+![image12](https://github.com/mohitsshetty986/Personal-Projects/blob/master/Youtube%20website/images/Final%20image.png)
