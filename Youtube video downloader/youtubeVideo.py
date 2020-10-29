@@ -16,20 +16,20 @@ def my_form():
 def my_form_post():
 	url = request.form['videourl']		
 	# downloading the youtube video using the url
-	ytd=YouTube(url).streams.first().download('E:\\nm\\Personal-Projects\\Youtube website\\static', filename='youtube') 
+	ytd=YouTube(url).streams.first().download('static', filename='youtube') 
 
 	return render_template('Home.html')
 
 @app.route('/mp3/')
 def mp3_convert():		# mp4 to mp3 feature																	
-    clip=mp.VideoFileClip(r'E:\\nm\\Personal-Projects\\Youtube website\\static\\youtube.mp4')
-    clip.audio.write_audiofile(r'static\\youtube.mp3')     
+    clip=mp.VideoFileClip(r'static\\youtube.mp4')
+    clip.audio.write_audiofile(r'static\\youtube.wav')     
 
     return render_template('Home.html',output="Hey mohit video converted to mp3...check in static folder")
 
 @app.route('/image/')
 def img_convert():		# video to image frames
-	cam = cv2.VideoCapture("E:\\nm\\Personal-Projects\\Youtube website\\static\\youtube.mp4")		
+	cam = cv2.VideoCapture("static\\youtube.mp4")		
 	try: 
 	    if not os.path.exists('static\\image_data'): 
 	        os.makedirs('static\\image_data') 
