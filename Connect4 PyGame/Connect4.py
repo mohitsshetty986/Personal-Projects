@@ -122,13 +122,22 @@ while not game_over:
 						label=winningfont.render("Player 1 Wins !!! YEYYYYY!!!",1,(RED))
 						screen.blit(label,(40,10)) #label prints in the specified position
 						game_over=True
-
 				else:
-					label=winningfont.render("Warning : Column filled... Please use other Column",1,(RED))
-					screen.blit(label,(40,10))
-					turn=turn-1
+					count=0 
+					for m in range(column_count):
+						if board[5][m]!=0:
+							count+=1
 
-			# Ask Player 2 Input
+					if count==m+1: #Checks if the board is completely filled or not
+						label=winningfont.render("Match Drawn!!!",1,(RED))
+						screen.blit(label,(40,10)) #label prints in the specified position
+						game_over=True
+					else:
+						turn -= 1
+						label=winningfont.render("Please go to other column!!!",1,(RED))
+						screen.blit(label,(40,10)) #label prints in the specified position
+
+			# Ask Player 2 input
 			else:
 				position_x=event.pos[0]   #between 0 and 700
 				selectColumn= math.floor(position_x/positionsize)
@@ -140,11 +149,20 @@ while not game_over:
 						label=winningfont.render("Player 2 Wins !!! YEYYYYY!!!",1,(RED))
 						screen.blit(label,(40,10)) #label prints in the specified position
 						game_over=True
-
 				else:
-					label=winningfont.render("Warning : Column filled... Please use other Column",1,(RED))
-					screen.blit(label,(40,10))
-					turn=turn-1	
+					count=0  
+					for m in range(column_count):
+						if board[5][m]!=0:
+							count+=1
+
+					if count==m+1: #Checks if the board is completely filled or not
+						label=winningfont.render("Match Drawn!!!",1,(RED))
+						screen.blit(label,(40,10)) #label prints in the specified position
+						game_over=True
+					else:
+						turn -= 1
+						label=winningfont.render("Please go to other column!!!",1,(RED))
+						screen.blit(label,(40,10)) #label prints in the specified position
 
 			print_board(board)
 			draw_board(board)
@@ -153,7 +171,7 @@ while not game_over:
 			turn=turn%2
 
 			if game_over:
-				pygame.time.wait(10000)
+				pygame.time.wait(10000)	
 
 
 
