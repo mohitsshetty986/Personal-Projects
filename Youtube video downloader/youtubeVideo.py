@@ -15,7 +15,7 @@ def my_form():
 @app.route('/', methods=['POST'])
 def my_form_post():
 	url = request.form['videourl']		
-	#caption(url)
+	caption(url)
 	# downloading the youtube video using the url
 	ytd=YouTube(url).streams.first().download('static', filename='youtube') 
 
