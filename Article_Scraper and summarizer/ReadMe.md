@@ -8,4 +8,4 @@
 
 **4) Want someone to narrate you a long news article? I have added a Google Text to Speech element.**
 
-**5) We have added an sentiment analysis that determines the emotion of the article i.e. if the topic is 'Sad','Happy','fearful', etc.**
+**5) I have added an sentiment analysis that determines the emotion of the article i.e. if the topic is 'Sad','Happy','fearful', etc.**
